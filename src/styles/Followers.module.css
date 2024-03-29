@@ -1,0 +1,256 @@
+.secao_principal {
+    display: flex;
+    width: 100%;
+    height: 740px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b1821;
+}
+
+.secao_txt {
+    width: 50%;
+    height: 587px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.secao_txt h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.secao_txt p {
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 40px;
+    width: 450px;
+}
+
+.secao_image {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    position: relative;
+
+}
+
+.secao_video {
+    width: 250px;
+    height: 547px;
+    position: absolute;
+    border-radius: 27px;
+    top: 10px;
+    cursor: pointer;
+    position: absolute;
+    object-fit: inherit;
+}
+
+.phone_case {
+    width: 364px;
+    height: 587px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.phone_background {
+    position: absolute;
+}
+
+/* Followers.module.css */
+@media (max-width: 1060px) {
+    .secao_principal {
+        display: flex;
+        width: 100%;
+        height: 740px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2b1821;
+    }
+    
+    .secao_txt {
+        width: 40%;
+        height: 587px;
+        color: #ffffff;
+        z-index: 1;
+    }
+    
+    .secao_txt h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    
+    .secao_txt p {
+        font-size: 26px;
+        line-height: 28px;
+        margin-top: 40px;
+        width: 350px;
+    }
+    
+    .secao_image {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        position: relative;
+    
+    }
+    
+    .secao_video {
+        width: 200px;
+        height: 488px;
+        position: absolute;
+        border-radius: 27px;
+        top: 10px;
+        cursor: pointer;
+        position: absolute;
+        object-fit: inherit;
+    }
+    
+    .phone_case {
+        width: 293px;
+        height: 523px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .phone_background  {
+        position: absolute;
+        width: 410px;
+        height: 555px;
+    }
+}
+
+@media (max-width: 860px) {
+    
+    .secao_principal {
+        display: flex;
+        width: 100%;
+        height: 740px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2b1821;
+    }
+    .secao_txt {
+        width: 30%;
+        height: 587px;
+        color: #ffffff;
+        z-index: 1;
+        margin: 10px 10px 40px 10px;
+        width: 100%;
+    }
+    
+    .secao_txt h1 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    
+    .secao_txt p {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 20px;
+        width: 80%;
+    }
+    
+    .secao_image {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        position: relative;
+    
+    }
+    
+    .secao_video {
+        width: 170px;
+        height: 400px;
+        position: absolute;
+        border-radius: 27px;
+        top: 10px;
+        cursor: pointer;
+        position: absolute;
+        object-fit: inherit;
+    }
+    
+    .phone_case {
+        width: 248px;
+        height: 427px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .phone_background  {
+        position: absolute;
+        width: 315px;
+        height: 430px;
+    }
+}
+
+@media (max-width: 580px) {
+    .secao_principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 740px;
+        background-color: #2b1821;
+    }
+    .secao_txt {
+        width: 100%;
+        height: 290px;
+        color: #ffffff;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .secao_txt h1 {
+        font-size: 36px;
+        line-height: 40px;
+        width: 80%;
+    }
+    
+    .secao_txt p {
+        font-size: 22px;
+        line-height: 24px;
+        margin-top: 10px;
+        width: 80%;
+    }
+    
+    .secao_image {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        position: relative;
+    
+    }
+    
+    .secao_video {
+        width: 170px;
+        height: 400px;
+        position: absolute;
+        border-radius: 27px;
+        top: 10px;
+        cursor: pointer;
+        position: absolute;
+        object-fit: inherit;
+    }
+    
+    .phone_case {
+        width: 248px;
+        height: 427px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .phone_background  {
+        position: absolute;
+        width: 315px;
+        height: 430px;
+    }
+}

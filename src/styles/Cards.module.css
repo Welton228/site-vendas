@@ -1,0 +1,34 @@
+.secao_cards {
+    width: 295px;
+    height: 309px;
+    color: white;
+    background-color: #cb6997;
+    padding: 30px;
+    z-index: 1;
+}
+
+@media (max-width: 1164px) {
+    .secao_cards {
+        width: 234px;
+        height: 278px;
+        padding: 28px;
+    }
+}
+
+@media (max-width:980px) {
+    .secao_cards {
+        width: 177px;
+        height: 232px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 765px) {
+    .secao_cards {
+        width: 265px;
+        height: 275px;
+        padding: 20px;
+        margin: 10px;
+        position: relative;
+    }
+}

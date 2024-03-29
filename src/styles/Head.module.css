@@ -1,0 +1,386 @@
+.secao_principal {
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/background-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao_txt {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    position: relative;
+}
+
+.secao_txt h1 {
+    font-size: 64px;
+    width: 650px;
+}
+
+.secao_txt h3 {
+    display: inline;
+}
+
+.secao_txt h4 {
+    text-align: center;
+    margin-right: 300px;
+}
+
+.secao_image_left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    position: relative;
+
+}
+
+.instagram_left {
+    width: 167px;
+    height: 167px;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    transform: rotate(-10deg);
+
+}
+
+.hearts_left {
+    width: 170px;
+    height: 156px;
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    transform: rotate(-45deg);
+}
+
+.hearts_left:hover {
+    transform: scale(1.4);
+    transition: all ease 2s;
+}
+
+.secao_image_right {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.instagram_right {
+    width: 338px;
+    height: 338px;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 31px;
+    right: 38px;
+}
+
+.hearts_right {
+    width: 84px;
+    height: 77px;
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    transform: rotate(20deg);
+}
+
+.hearts_right:hover {
+    transform: scale(1.4);
+    transition: all ease 2s;
+}
+
+/* Head.module.css */
+@media (max-width: 1360px) {
+    .secao_principal {
+        width: 100%;
+        height: 400px;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .secao_txt {
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        width: 500px;
+    }
+
+    .secao_txt h1 {
+        font-size: 48px;
+        width: 300px;
+    }
+
+    .secao_txt h4 {
+        text-align: start;
+        margin-left: 60px;
+    }
+
+    .secao_image_left {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    .instagram_left {
+        width: 175px;
+        height: 175px;
+        position: absolute;
+        top: -107px;
+        right: 14px;
+        transform: rotate(-10deg);
+    }
+
+    .hearts_left {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        bottom: -30px;
+        right: 70px;
+        transform: rotate(-45deg);
+
+    }
+
+    .secao_image_right {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
+    .instagram_right {
+        width: 260px;
+        height: 260px;
+        transform: rotate(-10deg);
+        position: absolute;
+        top: -140px;
+        right: -43px;
+    }
+
+    .hearts_right {
+        width: 84px;
+        height: 77px;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        transform: rotate(20deg);
+    }
+}
+
+@media (max-width: 952px) {
+    .secao_principal {
+        width: 100%;
+        height: 400px;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .secao_txt {
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        width: 400px;
+    }
+
+    .secao_txt h1 {
+        font-size: 48px;
+        width: 300px;
+    }
+
+    .secao_txt h4 {
+        text-align: start;
+        margin-left: 60px;
+    }
+
+    .secao_image_left {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    .instagram_left {
+        width: 175px;
+        height: 175px;
+        position: absolute;
+        top: -106px;
+        right: 14px;
+        transform: rotate(-10deg);
+    }
+
+    .hearts_left {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        bottom: -30px;
+        right: 70px;
+        transform: rotate(-45deg);
+
+    }
+
+    .secao_image_right {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
+    .instagram_right {
+        width: 180px;
+        height: 180px;
+        transform: rotate(-10deg);
+        position: absolute;
+        top: -110px;
+        right: 5px;
+    }
+
+    .hearts_right {
+        width: 84px;
+        height: 77px;
+        position: absolute;
+        top: 46px;
+        right: -7px;
+        transform: rotate(20deg);
+    }
+
+    @media (max-width: 810px) {
+        .secao_txt {
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            position: relative;
+            width: 300px;
+        }
+
+        .secao_txt h1 {
+            font-size: 34px;
+            width: 200px;
+        }
+
+        .secao_txt h4 {
+            text-align: start;
+            margin-left: 30px;
+        }
+
+        .secao_txt h3 {
+            font-size: 16px;
+        }
+
+        .instagram_left {
+            width: 90px;
+            height: 90px;
+            position: absolute;
+            top: -22px;
+            right: -21px;
+            transform: rotate(-10deg);
+        }
+
+        .hearts_left {
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            bottom: 33px;
+            right: 25px;
+            transform: rotate(-45deg);
+
+        }
+
+        .secao_image_right {
+            position: relative;
+            width: auto;
+            height: 200px;
+        }
+
+        .instagram_right {
+            width: 120px;
+            height: 120px;
+            transform: rotate(-10deg);
+            position: absolute;
+            top: -90px;
+            right: 15px;
+            object-fit: inherit;
+        }
+
+        .hearts_right {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            top: 6px;
+            right: 17px;
+            transform: rotate(20deg);
+        }
+
+    }
+
+    @media (max-width: 468px) {
+        .secao_txt {
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            position: relative;
+            width:auto;
+        }
+
+        .secao_txt h1 {
+            font-size: 34px;
+            width: 100px;
+        }
+
+        .secao_txt h4 {
+            text-align: start;
+            width: 30px;
+            margin-left: 4px;
+        }
+
+        .secao_txt h3 {
+            font-size: 16px;
+            margin-left: -53px;
+        }
+
+        .instagram_left {
+            top: -54px;
+            right: -16px;
+        }
+
+        .hearts_left {
+            bottom: -13px;
+            right: 5px;
+        }
+
+        .secao_image_right {
+            position: relative;
+            width: auto;
+            height: 200px;
+        }
+
+        .instagram_right {
+            top: -103px;
+            right: 62px;
+        }
+
+        .hearts_right {
+            width: 55px;
+            height: 55px;
+            top: 8px;
+            right: 44px;
+        }
+    }
+
+}
+
+@media (max-width: 375px) {
+    .secao_image_left {
+        width: auto;
+        height: auto;
+    }
+}

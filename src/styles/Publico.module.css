@@ -1,0 +1,365 @@
+.secao_principal {
+    width: 100%;
+    height: 680px;
+    background-image: url('../assets/background-public.webp');
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secao_txt {
+    width: 50%;
+    padding: 20px;
+    color: #ffffff;
+    position: relative;
+   
+}
+
+.secao_txt h1 {
+    font-size: 65px;
+    line-height: 95px;
+    width: 400px;
+}
+
+.secao_txt p {
+    font-size: 25px;
+    line-height: 35px;
+    width: 350px;
+}
+
+.secao_txt img {
+    animation: pulsar 3s infinite;
+}
+
+.secao_image img {
+    width: 200px;
+    height: 400px;
+    margin: 80px auto;
+    margin: 80px 45px 40px 0;
+}
+
+
+.star_emoji {
+    width: 97px;
+    height: 104px;
+    position: absolute;
+    top: 40px;
+    right: 140px;
+    
+}
+
+.love_message {
+    width: 141px;
+    height: 129px;
+    position: absolute;
+    right: 140px;
+    bottom: 180px;
+    
+}
+
+.love_emoji {
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    bottom: 160px;
+    
+}
+
+@keyframes pulsar {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @media (max-width: 1360px) {
+    .secao_principal {
+        width: 100%;
+        height: 680px;
+        background-image: url('../assets/background-public.webp');
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .secao_txt {
+        width: 40%;
+        padding: 20px;
+        color: #ffffff;
+        position: relative;
+    }
+    
+    .secao_txt h1 {
+        font-size: 55px;
+        line-height: 75px;
+        width: 400px;
+    }
+    
+    .secao_txt p {
+        font-size: 22px;
+        line-height: 32px;
+        width: 330px;
+    }
+    
+    .secao_txt img {
+        animation: pulsar 3s infinite;
+    }
+    
+    .secao_image img {
+        width: 170px;
+        height: 400px;
+        margin: 80px 45px 40px 0;
+    }
+    
+    .star_emoji {
+        width: 78px;
+        height: 78px;
+        position: absolute;
+        top: 40px;
+        right: -40px;
+        
+    }
+    
+    .love_message {
+        width: 110px;
+        height: 95px;
+        position: absolute;
+        right: -20px;
+        bottom: 193px;
+        
+    }
+    
+    .love_emoji {
+        width: 71px;
+        height: 71px;
+        position: absolute;
+        bottom: 160px;
+        
+    }
+    
+  } 
+
+  @media (max-width: 1024px) {
+
+    .secao_principal {
+        width: 100%;
+        height: 680px;
+        background-image: url('../assets/background-public.webp');
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .secao_txt {
+        width: 30%;
+        padding: 20px;
+        color: #ffffff;
+        position: relative;
+    }
+    
+    .secao_txt h1 {
+        font-size: 45px;
+        line-height: 65px;
+        width: 400px;
+    }
+    
+    .secao_txt p {
+        font-size: 22px;
+        line-height: 32px;
+        width: 330px;
+    }
+    
+    .secao_txt img {
+        animation: pulsar 3s infinite;
+    }
+    .secao_image {
+        width: 50%;
+    }
+    
+    .secao_image img {
+        width: 170px;
+        height: 400px;
+        margin: 80px 45px 40px 0;
+    }
+    
+    .star_emoji {
+        width: 78px;
+        height: 78px;
+        position: absolute;
+        top: 40px;
+        right: -164px;
+        
+    }
+    
+    .love_message {
+        width: 110px;
+        height: 95px;
+        position: absolute;
+        right: -150px;
+        bottom: 193px;
+        
+    }
+    
+    .love_emoji {
+        width: 71px;
+        height: 71px;
+        position: absolute;
+        bottom: 160px;
+       
+    }
+  }
+
+  @media (max-width: 960px) {
+    .secao_principal {
+        width: 100%;
+        height: auto;
+        background-image: url('../assets/background-public.webp');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .secao_txt {
+        width: 100%;
+        padding: 20px;
+        color: #ffffff;
+        position: relative;
+    }
+    
+    .secao_txt h1 {
+        font-size: 45px;
+        line-height: 65px;
+        width: 100%;
+    }
+    
+    .secao_txt p {
+        font-size: 22px;
+        line-height: 32px;
+        width: 100%;
+    }
+    
+    .secao_txt img {
+        animation: pulsar 3s infinite;
+    }
+    .secao_image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .secao_image img {
+        width: 170px;
+        height: 400px;
+
+    }
+    
+    .star_emoji {
+        width: 78px;
+        height: 78px;
+        position: absolute;
+        top: 187px;
+        right: 55px;
+        
+    }
+    
+    .love_message {
+        width: 88px;
+        height: 70px;
+        position: absolute;
+        right: 38px;
+        bottom: -438px;
+        
+    }
+    
+    .love_emoji {
+        width: 71px;
+        height: 71px;
+        position: absolute;
+        bottom: -146px;
+       
+    }
+  }
+
+  @media (max-width: 660px) {
+    .secao_principal {
+        width: 100%;
+        height: auto;
+        background-image: url('../assets/background-public.webp');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .secao_txt {
+        width: 100%;
+        padding: 20px;
+        color: #ffffff;
+        position: relative;
+    }
+    
+    .secao_txt h1 {
+        font-size: 40px;
+        line-height: 55px;
+        width: 100%;
+    }
+    
+    .secao_txt p {
+        font-size: 20px;
+        line-height: 32px;
+        width: 100%;
+    }
+    
+    .secao_txt img {
+        animation: pulsar 3s infinite;
+    }
+    .secao_image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .secao_image img {
+        width: 140px;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .star_emoji {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 18px;
+        right: 55px;
+        
+    }
+    
+    .love_message {
+        width: 60px;
+        height: 50px;
+        position: absolute;
+        right: 86px;
+        bottom: -16px;
+    }
+    
+    .love_emoji {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        bottom: -43px;
+        left: 67px;
+    }
+  }
+
+  @media (max-width: 588px) {
+    .star_emoji {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 18px;
+        right: 18px;
+    }
+  }
