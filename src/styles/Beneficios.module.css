@@ -1,7 +1,7 @@
 .secao_externa {
     width: 100%;
     background-color: #2b1821;
-    
+    background-attachment: fixed;
 }
 
 .secao_principal {
@@ -310,14 +310,78 @@
     }
 
     .secao_phone_case {
-        width: 400px; 
+        width: 360px; 
+    }
+
+    .phone_case_01 {
+        width: 323px;
+        height: 608px;
+        bottom: -20px;
+        left: -14px;
+    }
+    
+    .phone_case_video_01 {
+        width: 223px;
+        height: 565px;
+        left: 35px;
+        bottom: 10px;
     }
 
     .phone_case_02 {
-        left: 220px;
+        left: 170px;
+        width: 185px;
     }
     
     .phone_case_video_02 {
-        right: 6px;
+        right: 35px;
+        width: 125px;
+    }
+
+    .phone_background {
+        width: 334px;
+        height: 697px;
+    }
+
+    .background_sales01 {
+        left: 97px;
+        width: 250px;
+        height: 437px;
+        top: 45px;
+    }
+
+    .background_sales02 {
+        right: 132px;
+        width: 230px;
+        height: 350px;
+        top: 324px;
+    }
+    
+    .background_sales03 {
+        width: 44px;
+        height: 250px;
+        bottom: -7px;
+    }
+
+    .secao_cards {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+}
+
+@media (max-width: 430px) {
+    .secao_cards {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .phone_case_02 {
+        left: 170px;
+        width: 185px;
+    }
+    
+    .phone_case_video_02 {
+        right: 35px;
+        width: 128px;
     }
 }

@@ -12,13 +12,16 @@ const Followers = () => {
             por nichos e mais de 100 vídeos Aesthetics, surpreenda
             seus seguidores e aumente suas vendas!
         </p>
+        <div className={Styles.secao_btn}> 
+      <button className={Styles.neon_btn}><a href="https://pay.kiwify.com.br/x2HX3NH?afid=HyxezStR" target="_blank" rel="noopener noreferrer">Adquira Já!!!</a></button>
+          </div> 
         </section>
         <div className={Styles.secao_image}>
             <img className={Styles.phone_background} src={phoneBackground} alt="phone-background"/>
             <img className={Styles.phone_case} src={phoneCase} alt="phone-case" />
-            <video className={Styles.secao_video}  src={phoneVideo} controls autoPlay muted></video>
-               
+            <video className={Styles.secao_video}  src={phoneVideo} controls autoPlay muted></video>  
         </div>
+       
     </section>
   ) ;
 };

@@ -4,6 +4,7 @@
     background-image: url('../assets/background-public.webp');
     display: flex;
     justify-content: space-evenly;
+    background-attachment: fixed;
 }
 
 .secao_txt {
@@ -323,7 +324,7 @@
     }
     
     .secao_image img {
-        width: 140px;
+        width: 120px;
         height: 300px;
         text-align: center;
     }
@@ -360,6 +361,20 @@
         height: 40px;
         position: absolute;
         top: 18px;
-        right: 18px;
+        right: 75px;
     }
+  }
+
+  @media (max-width: 430px) {
+    .star_emoji {
+        right: 32px;
+        
+    }
+    
+    .love_message {
+        
+        right: 59px;
+        bottom: -29px;
+    }
+    
   }

@@ -75,6 +75,9 @@ const Depoimentos = () => {
         <div>
           <img src={Comentario03} alt="comentario05" />
         </div>
+        <div>
+          <img src={Comentario05} alt="comentario05" />
+        </div>
         <div className={Styles.secao_comentarios_txt}>
           <h1>Duvidas Frequentes:</h1>
           <h3>COMO RECEBEREI MEU PACK APÓS A COMPRA?</h3>
@@ -84,9 +87,6 @@ const Depoimentos = () => {
           </p>
           <h3>QUANTO TEMPO TEREI ACESSO AO PACK?</h3>
           <p>O pack é vitalício e você não pagará por nenhuma atualização.</p>
-        </div>
-        <div>
-          <img src={Comentario05} alt="comentario05" />
         </div>
       </div>
       <section className={Styles.secao_externa_nichos}>
@@ -105,5 +105,4 @@ const Depoimentos = () => {
     </section>
   );
 };
-
 export default Depoimentos;

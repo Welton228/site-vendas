@@ -11,8 +11,8 @@ const Head = () => {
       </div>
       <div className={Styles.secao_txt}>
         <h4>Pack</h4>
-        <h1>STORIES ATRATIVOS</h1>
-        <h3>seus stories nunca mais serão os mesmos!</h3>
+        <h1 lang="en">STORIES ATRATIVOS</h1>
+        <h3>Seus stories nunca mais serão os mesmos!</h3>
         <img className={Styles.hearts_right} src={hearts} alt="Instagram-hearts" />
       </div>
       <div className={Styles.secao_image_right}>

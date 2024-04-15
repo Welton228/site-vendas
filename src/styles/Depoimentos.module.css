@@ -1,10 +1,12 @@
 .secao_principal {
     width: 100%;
+    height: auto;
     background-image: url('../assets/background-public.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
+    background-attachment: fixed;
 }
 
 .secao_principal h2 {
@@ -21,7 +23,6 @@
     max-width: 1068px;
     height: 1064px;
     margin: 0 auto;
-
     padding: 20px;
 }
 
@@ -29,10 +30,12 @@
     width: 480px;
     height: 200px;
     border-radius: 4px;
+    box-shadow: 0 0 20px #d14385, 0 0 30px #a54873, 0 0 50px #2b1821, 0 0 50px #2b1821, 0 0 300px #2b1821, 0 0 30px #db438a, inset 0 0 50px #e70870;
 }
 
 .secao_comentarios div {
     flex: 1 1 200px;
+    margin: 10px auto;
 }
 
 
@@ -53,7 +56,6 @@
     font-size: 19px;
     line-height: 26px;
     letter-spacing: 1px;
-    padding: 10px;
 }
 
 .secao_externa_nichos {
@@ -65,7 +67,6 @@
 
 .secao_nichos {
     text-align: center;
-
 }
 
 .secao_nichos h1 {
@@ -189,8 +190,31 @@
 
 }
 
+@media (max-width: 1280px) {
+    .secao_nichos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: end;
+    }
+
+    .secao_nichos h1 {
+        font-size: 29px;
+        line-height: 39px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .secao_btn {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 200px
+    }
+
+}
+
 @media (max-width: 1064px) {
-    
+
     .secao_principal h2 {
         text-align: center;
         font-size: 43px;
@@ -198,7 +222,7 @@
         line-height: 64px;
         padding: 20px;
     }
-    
+
     .secao_comentarios {
         display: flex;
         flex-wrap: wrap;
@@ -206,43 +230,43 @@
         height: auto;
         margin: 0 auto;
     }
-    
+
     .secao_comentarios img {
         width: 380px;
         height: 160px;
         border-radius: 4px;
     }
-    
+
     .secao_comentarios div {
         flex: 1 1 200px;
     }
-    
-    
+
+
     .secao_comentarios_txt h1 {
         font-size: 35px;
         line-height: 53px;
         letter-spacing: 10px;
-        text-align: center;
+        text-align: left;
     }
-    
+
     .secao_comentarios_txt h3 {
         font-size: 18px;
         line-height: 24px;
         letter-spacing: 3px;
     }
-    
+
     .secao_comentarios_txt p {
         font-size: 16px;
         line-height: 22px;
     }
-    
+
     .secao_externa_nichos {
         display: block;
     }
-    
+
     .secao_nichos {
         text-align: center;
-    
+
     }
 
     .secao_btn {
@@ -250,36 +274,37 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .neon_btn a {
         color: black;
         text-decoration: none;
     }
-    
+
     .neon_btn {
-       margin: 50px 5px 70px 5px;
+        margin: 50px 5px 70px 5px;
     }
 
 }
 
 @media (max-width: 684px) {
-    
     .secao_principal h2 {
         text-align: left;
         font-size: 30px;
         line-height: 54px;
         padding: 10px;
+        
     }
-    
+
     .secao_comentarios div {
         flex: 1 1 200px;
     }
-    
+
     .secao_comentarios_txt h1 {
         font-size: 30px;
         line-height: 43px;
         letter-spacing: 10px;
         text-align: left;
+        letter-spacing: 10px;
     }
 
     .secao_btn {
@@ -287,7 +312,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .neon_btn {
         width: 300px;
         height: 80px;
@@ -299,6 +324,7 @@
     .neon_btn a {
         font-size: 24px;
     }
+
     .secao_nichos {
         flex: 1 1 200px;
         flex-wrap: wrap;
@@ -317,15 +343,179 @@
 }
 
 @media (max-width: 468px) {
+    .secao_principal h2 {
+        text-align: center;
+        font-size: 20px;
+        line-height: 44px;
+    }
+
     .secao_btn {
+        width: 340px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 10px auto;
+    }
+
+    .neon_btn {
+        margin: 50px auto;
+    }
+
+    .secao_comentarios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 375px;
+    }
+
+    .secao_comentarios div {
+        display: block;
+        width: 332px;
     }
 
     .secao_comentarios_txt {
         padding: 5px;
-        margin: 10px auto;
+        margin: 5px auto;
+        letter-spacing: 0;
+        display: block;
+        width: 340px;
+    }
+
+    .secao_comentarios_txt h1 {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 22px auto 10px auto;
+        letter-spacing: 5px;
+    }
+
+    .secao_comentarios_txt h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .secao_comentarios_txt p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .secao_comentarios {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .secao_comentarios img {
+        width: 324px;
+        height: 146px;
+        border-radius: 4px;
+        margin: 3px;
+    }
+
+    .secao_nichos {
+        width: 375px;
+        flex-wrap: wrap;
+    }
+
+    .secao_nichos h1 {
+        font-size: 18px;
+        max-width: 300px;
+    }
+
+    .secao_nichos ul {
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .secao_nichos ul li {
+        margin: 0 25px;
+        text-align: left;
+        font-size: 9px;
+
+    }
+
+    @media(max-width: 375px) {
+        .secao_principal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 360px;
+        }
+        .secao_principal h2 {
+            font-size: 19px;
+            width: 360px;
+    
+        }
+        .secao_btn {
+            width: 330px;
+            margin: 50px auto;
+        }
+
+        .secao_btn a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .secao_comentarios {
+            width: 330px;
+        }
+        .secao_comentarios_txt h1 {
+            font-size: 18px;
+            width: 200px;
+        }
+    
+        .secao_comentarios_txt h3 {
+            font-size: 16px;
+        }
+    
+        .secao_comentarios_txt p {
+            font-size: 14px;
+        }
+        .secao_comentarios div {
+            width: 350px;
+            margin: 5px auto;
+        }
+
+        .secao_nichos {
+            width: 355px;
+        }
+    }
+
+    @media (max-width:360px) {
+        .secao_comentarios {
+            width: 320px;
+            display: block;
+            justify-content: center;
+        }
+        .secao_comentarios_txt h1 {
+            font-size: 18px;
+            width: 200px;
+        }
+    
+        .secao_comentarios_txt h3 {
+            font-size: 16px;
+        }
+    
+        .secao_comentarios_txt p {
+            font-size: 14px;
+        }
+
+        .secao_comentarios div {
+            width: 320px;
+            margin: 5px auto;
+        }
+
+        .secao_nichos {
+            width: 355px;
+        }
+
+        .secao_comentarios img {
+            width: 272px;
+            height: 137px;
+        }
     }
 
 }
